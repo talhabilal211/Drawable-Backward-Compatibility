@@ -6,12 +6,15 @@ We publish the apk in playstore in bundle form so when apk is downloading it is 
 
 Directory Name | Media Type 
 -------------- | -------------
+drawable | Put here all background drawable.
 drawable-v21 | Put here all vertor drawables in ``svg's formate`` 
-drawable-ldpi | put here ``ldpi`` images in PNG formate
-drawable-hdpi | put here ``hdpi`` images in PNG formate
-drawable-xhdpi | put here ``xhdpi`` images in PNG formate
-drawable-xxhdpi | put here ``xxhdpi`` images in PNG formate
-drawable-xxxhdpi | put here ``xxxhdpi`` images in PNG formate
+drawable-ldpi | put here ``ldpi`` images in PNG formate.
+drawable-hdpi | put here ``hdpi`` images in PNG formate.
+drawable-xhdpi | put here ``xhdpi`` images in PNG formate.
+drawable-xxhdpi | put here ``xxhdpi`` images in PNG formate.
+drawable-xxxhdpi | put here ``xxxhdpi`` images in PNG formate.
+drawable-nodpi | put here those images which is not required for [pre-sclling](https://stackoverflow.com/a/34370735/6762459).
+drawable-anydpi | put here those images whch has to be used if already exist in [other](https://stackoverflow.com/a/34370735/6762459) folder
 
 
  In simple words you just need to place all svg's to drawable-v21 folder so when your device desity meet to v21 or hight it will automatically access drawable from ``drawable-v21`` folder and if some drawable are to present in ``drawable-v21`` then they will be accessed from other folder automatically. 
